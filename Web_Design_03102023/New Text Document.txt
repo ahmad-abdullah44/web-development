@@ -4,3 +4,9 @@ Git set up
 make sure the path in git bash is set to your desired folder.
 
 2. initialize an empty git repository using command "git init"
+
+3. track all the changes by using "git add ."
+
+4. make a version of the repository by using "git commit"
+	it is a good practice to add a message with commits so use
+	git commit -m "message"
