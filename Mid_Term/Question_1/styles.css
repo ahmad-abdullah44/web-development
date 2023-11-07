@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-menu {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+}
